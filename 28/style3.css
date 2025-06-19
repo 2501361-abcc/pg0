@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    background-image:url(https://sozaino.site/wp-content/uploads/2025/03/okumono_enogu2-768x432.png);
+    background-size:cover;
+}
+nav{
+    background:rgba(64, 63, 61, 0.8);
+    position:fixed;
+    top:0;
+    text-align:center;
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    margin-left:20px;
+}
+nav a:hover{
+    background-color:#656666;
+    color:#a8cef2;
+}
+.heads{
+    background:rgba(107, 107, 107, 0.8);
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    text-align:center;
+}
+.content{
+    display:flex;
+    justify-content:space-around;
+}
+.love{
+    background:rgba(105, 217, 245, 0.8);
+    padding:20px;
+    width:600px;
+    height:600px;
+    margin-left:100px;
+    box-sizing:border-box;
+}
+.love li{
+    margin-bottom:10px;
+}
+.container{
+  height: 400px;
+  width: 500px;
+  margin-top:50px;
+  margin-left:5px;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  background-size: cover;
+  background-position: center center;
+  
+  animation: image-switch-animation 25s infinite;
+}
+
+.src1 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSlPrD5p_oV5Hcz7-aLig3RSW1IqyPDSPd8A&s);
+}
+.src2 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkVjYDK_ZQG4wVLocA37YenbzPuAZS0ANvhg&s);
+}
+.src3 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJEa0VdCga8cV7Pk9m3Pgf76o2K8cVIDFEnQ&s);
+}
+.src4 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKBKMyi50j_FvbbtTBCG7rwqhgHSmSEptEdg&s);
+}
+.src5 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2E74CpAxhGmgxrSOybRTsYYcEGLBUEy3gnQ&s);
+}
+
+.image:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.image:nth-of-type(2) {
+  animation-delay: 5s;
+}
+.image:nth-of-type(3) {
+  animation-delay: 10s;
+}
+.image:nth-of-type(4) {
+  animation-delay: 15s;
+}
+.image:nth-of-type(5) {
+  animation-delay: 20s;
+}
+
+@keyframes image-switch-animation {
+  0%{ opacity: 0;}
+  5%{ opacity: 1;}
+  25%{ opacity: 1;}
+  30%{ opacity: 0;}
+  100%{ opacity: 0;}
+}

@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    background-image:url(https://thumb.ac-illust.com/53/53ea5ccb98410ccb7879fdb0f98212cb_w.jpeg);
+    background-size:cover;
+    background-attachment:fixed;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav{
+    background:rgba(64, 63, 61, 0.8);
+    position:fixed;
+    top:0;
+    text-align:center;
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    margin-left:20px;
+}
+nav a:hover{
+    background-color:#656666;
+    color:#a8cef2;
+}
+
+#content{
+    background:rgba(236, 188, 85, 0.7);
+    margin-top:5%;
+    border:solid 1px;
+    box-shadow:0px 0px 4px;
+    flex-wrap:wrap;
+    width:80%;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:5px;
+    box-sizing:border-box;
+}
+
+#content img{
+    height:290px;
+    float:left;
+}
+
